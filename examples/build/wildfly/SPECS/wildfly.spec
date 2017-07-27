@@ -1,4 +1,4 @@
-Summary: JBoss Application Server
+Summary: Wildfly (former JBoss) Application Server
 
 # The package name, version and release are supplied by rpm:build using rpmbuild(8)'s "--define" option:
 Name: %{name}
@@ -14,7 +14,7 @@ Group: Applications/System
 BuildArch: noarch
 
 # Specify minimum Java version required:
-Requires: java >= 1.6
+Requires: java >= 1.8
  
 # Disables debug packages and stripping of binaries:
 %global _enable_debug_package 0
@@ -25,7 +25,7 @@ Requires: java >= 1.6
 %define _binaries_in_noarch_packages_terminate_build   0
 
 %description
-JBoss Application Server
+Wildfly (former JBoss) Application Server
  
 %prep
 

@@ -1,3 +1,7 @@
+# MODIFIED FOR WILDFLY
+
+This branch is modified to test using the same method with http://download.jboss.org/wildfly/10.1.0.Final/wildfly-10.1.0.Final.tar.gz
+
 # Building a JBoss RPM using Rerun rpm:build
 
 The Rerun rpm module's build command encodes the conventional approach for building a binary package ("-bb") using rpmbuild(8). This example shows how to setup the source base to build a JBoss RPM using the rpm:build command.
